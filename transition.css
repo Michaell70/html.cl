@@ -1,0 +1,15 @@
+button{
+    background-color: deepskyblue;
+    border: 0;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-delay: 3s;
+    transition-timing-function: ease;
+
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}

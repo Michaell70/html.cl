@@ -1,0 +1,131 @@
+nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: white */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     position: sticky;
+    top: 0px;
+
+
+}
+.box{
+    height: 100px;
+    width: 20%;
+    display:flex ;
+    /* background-color: brown; */
+    justify-content: left;
+    align-items: center;
+    
+    
+}
+.tex1{
+    font-family: fantasy;
+    font-size: 42px;
+    color: black;    
+    font-weight: lighter;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+  .box2{
+    /* background-color: brown; */
+    display: flex;
+    height: 100%;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    text-transform: capitalize;
+
+  }
+  .box3{
+    height: 60%;
+    width: 10%;
+    display: flex;
+    border: 2px solid aqua;
+    justify-content: center;
+    border-radius: 7px;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    
+  }
+  .box4{height:100vh ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color:whitesmoke
+    
+ }
+ .tex3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-align: center;
+transform: translateY(100px);
+ }
+.tex4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    transform: translateY(50px);
+}
+.tex5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19;
+    text-align: center;
+    line-height: 40px;
+    
+}
+.box6{
+    height: 7%;
+    width: 35%;
+    display: flex;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+input{
+    width: 55%;
+    background-color: white;
+    border: none;
+    font-size: 24px;
+    border-radius: 5px;
+    
+    
+}
+.box7{
+    width: 43%;
+    border:none ;
+    background-color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tex5{
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+

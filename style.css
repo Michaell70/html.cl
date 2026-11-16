@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    color: cyan;
+}
+
+.text1{
+    color: rgb(43, 255, 0);
+}
+.text2{
+    color: brown;
+}
+#text3{
+    color: brown;
+}
+
+h5, span{
+    color: aquamarine;font-size: 50px;
+}
+div >p{
+    color: aqua;
+}
+.btn{
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    color: azure;
+    border-radius:30px ;
+
+}
+
+.btn:hover{
+background-color: rgba(165, 122, 42, 0.406);
+}
+
+.monk{
+    width: 200px;
+    height: 300px;
+    background-color: blueviolet;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    /* padding: 20px; */
+    padding: 10px;
+    margin-top: 10px;
+    border: 10px dotted green;
+}
+
+.innerbox{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+}
+.form{
+    color: rgb(174, 145, 0);
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    color: rgb(30, 10, 214);
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+}
+input{
+    height: 30px;width: 550px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+option{
+    text-transform: uppercase;
+}
+
+select{
+    height: 30px;width: 550px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+textarea{
+    height: 70px;
+    width: 550px;
+    margin-left: 20px;
+}
+button{
+    height: 25px;width: 500px;
+    background-color: blue;
+    color: antiquewhite;
+    margin-left: 45px;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+li:last-child{
+    color: blue;
+}
+li:first-child{
+    color: blue;
+}
+li:nth-child(even){
+    color: brown;
+}
+li:nth-child(3){
+    color: darkorange;
+}
+.longtxt{
+    line-height: 2;
+}
+.text{ color: black;
+    letter-spacing: 3px;
+    word-spacing: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    /* text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: brown; */
+    text-decoration: wavy;color: brown;text-underline;
+    text-shadow:2px 3px black
+}
+.hero{
+    width: 800px;
+    height: 600px;
+    background-image: url(sky.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    color: white;
+    font-size: 40px;
+    background-color:rgb(31, 15, 15);
+    background-blend-mode: darken;
+}
+.gradient{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    background: radial-gradient(red,yellow,green);
+    /* background: linear-gradient(red, orange); */
+    /* background: linear-gradient(to left,blue,yellow); */
+}
+

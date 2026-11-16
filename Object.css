@@ -1,0 +1,22 @@
+div{
+    height: 350px;
+    width: 230px;
+    color: brown;
+    background-color: chocolate;
+    margin: 30px;
+    background-image: url(carton.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 60px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri
+    f; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 20px;
+    font-size: 70px;
+    text-decoration:underline;red;
+
+
+
+}

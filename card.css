@@ -1,0 +1,72 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css');
+
+
+
+
+body{
+    background-color: #d6e1ff;
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+    height: 70%;
+    width: 500px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.card p{
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+}
+.payment{
+    background-color: #363ae0;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px #3639e0a2;
+    border: none;
+}
+.pricing{
+    background-color: #02ad02;
+    height: 50px;
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.iconbg{
+    width: 30px;
+    height: 30px;
+    background-color: #dfe5fb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bi-music-note-beamed{
+    color: gray;
+}
+
+.plan{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
